@@ -1,10 +1,10 @@
 package main
 
 import (
+	"VERB/module/check"
+	"VERB/module/getbio"
+	"VERB/module/listdownloader"
 	"fmt"
-	"goon-detector/module/check"
-	"goon-detector/module/getbio"
-	"goon-detector/module/listdownloader"
 	"io/ioutil"
 )
 
@@ -18,7 +18,7 @@ func main() {
 		return
 	}
 
-	funny := getbio.GetbioWithCheck(8386732330)
+	funny := getbio.GetbioWithCheck(7513451449)
 
 	if funny == "banned" {
 		fmt.Print("yo roblox good job vro")
