@@ -10,7 +10,7 @@ import (
 
 func main() {
 	fmt.Println("Downloading word list")
-	listdownloader.Download("https://raw.githubusercontent.com/whoschip/wordlist/main/data/all.txt")
+	listdownloader.Download("https://raw.githubusercontent.com/whoschip/wordlist/main/data/all.txt") // my version
 
 	data, err := ioutil.ReadFile("wordlist.txt")
 	if err != nil {
@@ -18,7 +18,7 @@ func main() {
 		return
 	}
 
-	funny := getbio.GetbioWithCheck(7513451449)
+	funny := getbio.GetbioWithCheck(7513451449) // user id i think
 
 	if funny == "banned" {
 		fmt.Print("yo roblox good job vro")
