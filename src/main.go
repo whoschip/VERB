@@ -18,7 +18,13 @@ func main() {
 		return
 	}
 
-	funny := getbio.GetbioWithCheck(7513451449) // user id i think
+	var lolid int
+
+	fmt.Println("Roblox user id to scan :")
+
+	fmt.Scanln(&lolid)
+
+	funny := getbio.GetbioWithCheck(lolid) // user id i think
 
 	if funny == "banned" {
 		fmt.Print("yo roblox good job vro")
