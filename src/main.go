@@ -1,9 +1,9 @@
 package main
 
 import (
-	"VERB/module/check"
-	"VERB/module/getbio"
-	"VERB/module/listdownloader"
+	"WordsCheck-VERB/module/check"
+	"WordsCheck-VERB/module/getbio"
+	"WordsCheck-VERB/module/listdownloader"
 	"fmt"
 	"io/ioutil"
 )
